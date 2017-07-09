@@ -1,0 +1,126 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.floor{
+
+    line-height: 100px;
+    text-align: center;
+    font-size: 24px;
+
+    border: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    
+}
+
+.number{
+    outline: none;
+    
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+.up{
+    outline: none;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+
+    border: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+   
+}
+
+.down{
+    outline: none;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+
+    border: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    
+}
+
+.insideNumbutton{
+    outline: none;
+}
+
+
+.Elevator{
+    background: white;
+    margin-left: 20px;
+
+    text-align: center;
+    top: 1935px;
+    height: 100px;
+    width: 200px;
+    z-index: 1;
+
+
+    border: 1px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    border-radius: 10px;
+    
+
+    position: absolute;
+    display: block;
+}
+
+.floors{
+
+    height: 2040px;
+    width: 100px;
+
+    border: 2px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    float: left;
+}
+
+.block{
+    padding: 0px;
+    
+    height: 100px;
+    width: 250px;
+
+    border: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    
+
+    /*display: inline-block;*/
+}
+
+.building{
+    list-style: none;
+    position: relative;
+
+    height: 2040px;
+    width: 250px;
+    z-index: 0;
+
+    border: 2px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    float: left;
+}
+
+.active{
+    background-color: orange;
+    display: inline-block;
+}

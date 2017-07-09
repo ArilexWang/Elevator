@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script src="scripts/jquery-1.6.2.min.js"></script>
+	<script src="scripts/my_scripts.js"></script>
+	<script src="scripts/floors.js"></script>
+	<head>
+		<title>Elevator</title>
+		<link rel="stylesheet" href="styles/my_style.css">
+	</head>
+	<body>
+		
+		
+		
+		
+		
+		
+		<ul class = "floors"> 
+			<li class="floor">
+				<button class="number">20</button>
+				<button class="up" data-id="20">↑</button>
+				<button class="down" data-id="20">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">19</button>
+				<button class="up" data-id="19">↑</button>
+				<button class="down" data-id="19">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">18</button>
+				<button class="up" data-id="18">↑</button>
+				<button class="down" data-id="18">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">17</button>
+				<button class="up" data-id="17">↑</button>
+				<button class="down" data-id="17">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">16</button>
+				<button class="up" data-id="16">↑</button>
+				<button class="down" data-id="16">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">15</button>
+				<button class="up" data-id="15">↑</button>
+				<button class="down" data-id="15">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">14</button>
+				<button class="up" data-id="14">↑</button>
+				<button class="down" data-id="14">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">13</button>
+				<button class="up" data-id="13">↑</button>
+				<button class="down" data-id="13">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">12</button>
+				<button class="up" data-id="12">↑</button>
+				<button class="down" data-id="12">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">11</button>
+				<button class="up" data-id="11">↑</button>
+				<button class="down" data-id="11">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">10</button>
+				<button class="up" data-id="10">↑</button>
+				<button class="down" data-id="10">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">9</button>
+				<button class="up" data-id="9">↑</button>
+				<button class="down" data-id="9">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">8</button>
+				<button class="up" data-id="8">↑</button>
+				<button class="down" data-id="8">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">7</button>
+				<button class="up" data-id="7">↑</button>
+				<button class="down" data-id="7">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">6</button>
+				<button class="up" data-id="6">↑</button>
+				<button class="down" data-id="6">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">5</button>
+				<button class="up" data-id="5">↑</button>
+				<button class="down" data-id="5">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">4</button>
+				<button class="up" data-id="4">↑</button>
+				<button class="down" data-id="4">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">3</button>
+				<button class="up" data-id="3">↑</button>
+				<button class="down" data-id="3">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">2</button>
+				<button class="up" data-id="2">↑</button>
+				<button class="down" data-id="2">↓</button>
+			</li>
+			<li class="floor">
+				<button class="number">1</button>
+				<button class="up" data-id="1">↑</button>
+				<button class="down" data-id="1">↓</button>
+			</li>
+		</ul>
+
+
+
+
+		<div class="building">
+			<div class="Elevator" data-id="1">
+				<button class="insideNumbutton" data-id="1" >1</button>
+				<button class="insideNumbutton" data-id="2" >2</button>
+				<button class="insideNumbutton" data-id="3" >3</button>
+				<button class="insideNumbutton" data-id="4" >4</button>
+				<button class="insideNumbutton" data-id="5" >5</button>
+				<button class="insideNumbutton" data-id="6" >6</button>
+				<button class="insideNumbutton" data-id="7" >7</button>
+				<button class="insideNumbutton" data-id="8" >8</button>
+				<button class="insideNumbutton" data-id="9" >9</button>
+				<button class="insideNumbutton" data-id="10" >10</button>
+				<button class="insideNumbutton" data-id="11" >11</button>
+				<button class="insideNumbutton" data-id="12" >12</button>
+				<button class="insideNumbutton" data-id="13" >13</button>
+				<button class="insideNumbutton" data-id="14" >14</button>
+				<button class="insideNumbutton" data-id="15" >15</button>
+				<button class="insideNumbutton" data-id="16" >16</button>
+				<button class="insideNumbutton" data-id="17" >17</button>
+				<button class="insideNumbutton" data-id="18" >18</button>
+				<button class="insideNumbutton" data-id="19" >19</button>
+				<button class="insideNumbutton" data-id="20" >20</button>
+				<button class="open">开</button>
+				<button class="close">关</button>
+				<button class="alert">☖</button>
+
+			</div>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+		</div>
+		<div class="building">
+			<div class="Elevator" data-id="2">
+				<button class="insideNumbutton" data-id="1" >1</button>
+				<button class="insideNumbutton" data-id="2" >2</button>
+				<button class="insideNumbutton" data-id="3" >3</button>
+				<button class="insideNumbutton" data-id="4" >4</button>
+				<button class="insideNumbutton" data-id="5" >5</button>
+				<button class="insideNumbutton" data-id="6" >6</button>
+				<button class="insideNumbutton" data-id="7" >7</button>
+				<button class="insideNumbutton" data-id="8" >8</button>
+				<button class="insideNumbutton" data-id="9" >9</button>
+				<button class="insideNumbutton" data-id="10" >10</button>
+				<button class="insideNumbutton" data-id="11" >11</button>
+				<button class="insideNumbutton" data-id="12" >12</button>
+				<button class="insideNumbutton" data-id="13" >13</button>
+				<button class="insideNumbutton" data-id="14" >14</button>
+				<button class="insideNumbutton" data-id="15" >15</button>
+				<button class="insideNumbutton" data-id="16" >16</button>
+				<button class="insideNumbutton" data-id="17" >17</button>
+				<button class="insideNumbutton" data-id="18" >18</button>
+				<button class="insideNumbutton" data-id="19" >19</button>
+				<button class="insideNumbutton" data-id="20" >20</button>
+				<button class="open">开</button>
+				<button class="close">关</button>
+				<button class="alert">☖</button>
+			</div>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+		</div>
+			
+		<div class="building">
+			<div class="Elevator" data-id="3">
+				<button class="insideNumbutton" data-id="1" >1</button>
+				<button class="insideNumbutton" data-id="2" >2</button>
+				<button class="insideNumbutton" data-id="3" >3</button>
+				<button class="insideNumbutton" data-id="4" >4</button>
+				<button class="insideNumbutton" data-id="5" >5</button>
+				<button class="insideNumbutton" data-id="6" >6</button>
+				<button class="insideNumbutton" data-id="7" >7</button>
+				<button class="insideNumbutton" data-id="8" >8</button>
+				<button class="insideNumbutton" data-id="9" >9</button>
+				<button class="insideNumbutton" data-id="10" >10</button>
+				<button class="insideNumbutton" data-id="11" >11</button>
+				<button class="insideNumbutton" data-id="12" >12</button>
+				<button class="insideNumbutton" data-id="13" >13</button>
+				<button class="insideNumbutton" data-id="14" >14</button>
+				<button class="insideNumbutton" data-id="15" >15</button>
+				<button class="insideNumbutton" data-id="16" >16</button>
+				<button class="insideNumbutton" data-id="17" >17</button>
+				<button class="insideNumbutton" data-id="18" >18</button>
+				<button class="insideNumbutton" data-id="19" >19</button>
+				<button class="insideNumbutton" data-id="20" >20</button>
+				<button class="open">开</button>
+				<button class="close">关</button>
+				<button class="alert">☖</button>
+			</div>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+		</div>
+		<div class="building">
+			<div class="Elevator" data-id="4">
+				<button class="insideNumbutton" data-id="1" >1</button>
+				<button class="insideNumbutton" data-id="2" >2</button>
+				<button class="insideNumbutton" data-id="3" >3</button>
+				<button class="insideNumbutton" data-id="4" >4</button>
+				<button class="insideNumbutton" data-id="5" >5</button>
+				<button class="insideNumbutton" data-id="6" >6</button>
+				<button class="insideNumbutton" data-id="7" >7</button>
+				<button class="insideNumbutton" data-id="8" >8</button>
+				<button class="insideNumbutton" data-id="9" >9</button>
+				<button class="insideNumbutton" data-id="10" >10</button>
+				<button class="insideNumbutton" data-id="11" >11</button>
+				<button class="insideNumbutton" data-id="12" >12</button>
+				<button class="insideNumbutton" data-id="13" >13</button>
+				<button class="insideNumbutton" data-id="14" >14</button>
+				<button class="insideNumbutton" data-id="15" >15</button>
+				<button class="insideNumbutton" data-id="16" >16</button>
+				<button class="insideNumbutton" data-id="17" >17</button>
+				<button class="insideNumbutton" data-id="18" >18</button>
+				<button class="insideNumbutton" data-id="19" >19</button>
+				<button class="insideNumbutton" data-id="20" >20</button>
+				<button class="open">开</button>
+				<button class="close">关</button>
+				<button class="alert">☖</button>
+			</div>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+		</div>
+		<div class="building">
+			<div class="Elevator" data-id="5">
+				<button class="insideNumbutton" data-id="1" >1</button>
+				<button class="insideNumbutton" data-id="2" >2</button>
+				<button class="insideNumbutton" data-id="3" >3</button>
+				<button class="insideNumbutton" data-id="4" >4</button>
+				<button class="insideNumbutton" data-id="5" >5</button>
+				<button class="insideNumbutton" data-id="6" >6</button>
+				<button class="insideNumbutton" data-id="7" >7</button>
+				<button class="insideNumbutton" data-id="8" >8</button>
+				<button class="insideNumbutton" data-id="9" >9</button>
+				<button class="insideNumbutton" data-id="10" >10</button>
+				<button class="insideNumbutton" data-id="11" >11</button>
+				<button class="insideNumbutton" data-id="12" >12</button>
+				<button class="insideNumbutton" data-id="13" >13</button>
+				<button class="insideNumbutton" data-id="14" >14</button>
+				<button class="insideNumbutton" data-id="15" >15</button>
+				<button class="insideNumbutton" data-id="16" >16</button>
+				<button class="insideNumbutton" data-id="17" >17</button>
+				<button class="insideNumbutton" data-id="18" >18</button>
+				<button class="insideNumbutton" data-id="19" >19</button>
+				<button class="insideNumbutton" data-id="20" >20</button>
+				
+				<button class="open">开</button>
+				<button class="close">关</button>
+				<button class="alert">☖</button>
+			</div>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+			<li class="block"></li>
+		</div>
+	</body>
+</html>
